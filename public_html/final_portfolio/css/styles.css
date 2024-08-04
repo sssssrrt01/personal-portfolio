@@ -3,10 +3,12 @@
 /* COGS3 studyBuddy specific styles go here. */
 
 * {
-    font-family: "Inter", serif !important;
-    color: rgb(220, 242, 255) !important;
+    font-family: "Inter" !important;
+    color: rgb(220, 242, 255);
     
 }
+
+
 
 html {
     scroll-behavior: smooth;
@@ -16,14 +18,32 @@ html {
     margin-left: auto;
 }
 
+.nav-link {
+    color: rgb(255, 208, 0);
+}
+
+.section-titles-2 {
+    margin-bottom: -1rem;
+    
+    text-align: left;
+    padding-left: 4%;
+    margin-left: 4rem;
+}
+
+.navy {
+    color:rgb(22, 40, 81);
+    padding-top: 4%;
+}
+
 .center-nav {
     align-content: center;
+    z-index: 99999;
 }
 
 .headshot {
-    border-radius: 100%;
+    border-radius: 50%;
     width: 20rem;
-    animation: 2s appear-in forwards;
+    animation: 3s appear-in forwards;
     padding-bottom: 10%;
     padding-top: 3%;
 }
@@ -31,21 +51,16 @@ html {
 
 
 .name {
-    animation: 0.5s slide-in forwards;
+    animation: 0.9s slide-in forwards;
 }
 
 .container-fluid {
-    padding: 3% 10%;
+    padding: 3% 5%;
     text-align: center;
     align-items: center;
-    background-color: rgb(22, 40, 81);
+    background-color: #162851;
 }
-.container-fluid-2 {
-    padding: 3% 10%;
-    text-align: center;
-    align-items: center;
-    background-color: rgb(229, 237, 255);
-}
+
 
 h1 {
     font-weight: 600;
@@ -77,10 +92,23 @@ p {
 
 .haoting-1 {
     width: 90%;
-    border-radius: 10%;
+    border-radius: 30px;
+    border: 5px solid;
 }
 
+.triton-baja {
+    width: 90%;
+    border-radius: 30px;
+    border: 5px solid #162851;
+}
 
+.project-subheading {
+    font-family: "Inter";
+    font-weight: 500;
+    text-align: center;
+    justify-self: center;
+    text-decoration: underline;
+}
 
 .title-image {
     width: 30%;
@@ -99,18 +127,34 @@ p {
     margin-left: 3rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    color: rgb(172, 195, 208) !important;
+    color: rgb(172, 195, 208);
 }
+.body-text-2 {
+    text-align: center;
+    margin-left: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color:rgb(22, 40, 81);
+}
+
 
 #about-me {
     background-color: rgb(22, 40, 81);
 }
 
+#resume {
+    padding-top: 4%;
+    background-color: rgb(22, 40, 81);
+}
+
 #projects {
-    padding: 0% 0%;
     font-family: 'Inter', serif;
-    background-color: rgb(213, 226, 255);
-    position: relative;
+    color:rgb(22, 40, 81) !important;
+    background-color: rgb(220, 242, 255);
+}
+
+.container-fluid-2 {
+    background-color: rgb(220, 242, 255);
 }
 
 .feature-box {
@@ -211,10 +255,4 @@ p {
         position: static;
         transform: rotate(0);
     }
-}
-
-#cta {
-    background-color: rgb(22, 40, 81);
-    text-align: center;
-    padding-top: 4%;
 }

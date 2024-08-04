@@ -22,7 +22,7 @@
 
 <body>
   <section id="navbar">
-    <nav class="navbar navbar-expand-lg navbar-transparent" style="position: fixed;">
+    <nav class="navbar navbar-expand-lg" style="position: fixed;">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,7 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item center-nav">
-            <a class="nav-link" href="#involvements">Contact Me</a>
+            <a class="nav-link" href="#resume">Resume</a>
           </li>
 
         </ul>
@@ -56,7 +56,7 @@
 
         <div class="col-lg-12">
           <h1 class="name">Haoting Huang</h1>
-          <h2 class="name">Mathematics & Computer Science @ UCSD</h2>
+          <h2 class="name">Mathematics & Computer Science @ UC San Diego</h2>
           <img class="headshot" src="images/headshot.png" alt="iphone with study buddy app">
           <br>
 
@@ -68,11 +68,11 @@
   <section id="about-me">
     <h3 class="section-titles">About Me</h3>
     <div class="row container-fluid">
-      
+
       <div class="col-lg-6">
         <p class="body-text"> Hello World! My name is Haoting, and I am currently a student pursuing a Bachelor's of
           Science in Mathematics and Computer Science, as well as a minor in Data Science at the University of
-          California, San Diego. 
+          California, San Diego.
           <br>
           <br>
           In my free time, you'll probably catch me planning out travel, shopping, or maybe exploring nature in Torrey
@@ -92,57 +92,80 @@
 
   <!--  Features -->
   <section id="projects">
-    <h3 class="section-titles">Projects</h3>
-    <div class="container-fluid-2">
-      <div class="row container-fluid">
-        <div class="col-lg-6">
+    <div class="section-titles-2">
+      <h3 class="navy">Projects</h3>
+    </div>
 
-          <p class="body-text"> AaA
-          </p>
-        </div>
-        <div class="col-lg-6">
-          <img class="haoting-1" src="images/haotig.jpg" alt="me touching water">
-        </div>
+
+    <div class="row container-fluid container-fluid-2">
+      <div class="col-lg-6">
+        <a href="https://github.com/sssssrrt01/discord-interruption-bot" target="_blank">
+          <h4 class="navy project-subheading">Discord Interruptive Rude Bot</h4>
+        </a>
+        <p class="body-text-2">
+          <br>
+          <br>
+          Created a troll bot using discord.js to play a loud, interruptive noise whenever a specific user is speaking.
+        </p>
       </div>
+      <div class="col-lg-6">
+        <img class="triton-baja" src="images/discord-bot.png" alt="discord bot guide screen">
+      </div>
+
+
+    </div>
+
+    <div class="row container-fluid container-fluid-2">
+      <div class="col-lg-6">
+        <img class="triton-baja" src="images/triton-baja.png" alt="triton baja website screenshot">
+      </div>
+      <div class="col-lg-6">
+        <a href="https://tritonbaja.github.io/triton-baja-website/" target="_blank">
+          <h4 class="navy project-subheading">Triton Baja Website</h4>
+        </a>
+        <p class="body-text-2">
+          <br>
+          <br>
+          Solely designed and implemented ReactJS, HTML, CSS for a website for Triton Baja, a new racing team on the UC
+          San Diego campus.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="row container-fluid container-fluid-2">
+      <div class="col-lg-6">
+        <a href="https://github.com/sssssrrt01/abercrombie-price-analytics" target="_blank">
+          <h4 class="navy project-subheading">Abercrombie & Fitch Price Tracker</h4>
+        </a>
+        <p class="body-text-2">
+          <br>
+          <br>
+          Who hates deceiving sales? Well I do! I made a Node.js webscraper that automatically logs daily price into a
+          PostgreSQL database and generates insights using Pandas.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img class="triton-baja" src="images/postico.png" alt="postico sql screenshot">
+      </div>
+
+
+    </div>
     </div>
   </section>
 
   <!-- Testimonials -->
 
-  <section id="involvements">
+  <section id="resume">
+    <h3 class="section-titles">Resume</h3>
+    <div class="row container-fluid">
 
-
-    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2>I no longer have to study alone. No more cramming. Lower stress!</h2>
-          <img class="testimonial-image" src="images/study-img-300.jpg"
-            alt="study image with buddy by eliott-reyna-Unsplashed.com">
-          <em>Cindy, UCSD</em>
-        </div>
-        <div class="carousel-item">
-          <h2>Love my study buddy! All thanks to this service!</h2>
-          <img class="testimonial-image" src="images/annie-spratt-unsplash.jpg"
-            alt="study image with buddy by eliott-reyna-Unsplashed.com">
-          <em>Annie, UCLA</em>
-        </div>
-        <div class="carousel-item">
-          <h2>I finally starting passing my classes again.</h2>
-          <img class="testimonial-image" src="images/tamarcus-brown-unsplash.jpg"
-            alt="study image with buddy by eliott-reyna-Unsplashed.com">
-          <em>Tamarcus, UCSC</em>
-        </div>
+      <div class="col-lg-12">
+        <p class="body-text">
+          <embed src="images/resume.pdf" width="500" height="675" type="application/pdf">
+        </p>
       </div>
-
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+    </div>
     </div>
   </section>
 
@@ -152,9 +175,7 @@
 
 
 
-  <footer id="footer">
-    <p>Copyright 2020 studyBuddy</p>
-  </footer>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

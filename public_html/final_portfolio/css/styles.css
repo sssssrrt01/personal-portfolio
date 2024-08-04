@@ -21,10 +21,11 @@ html {
 }
 
 .headshot {
-    border-radius: 50%;
+    border-radius: 100%;
     width: 20rem;
     animation: 2s appear-in forwards;
     padding-bottom: 10%;
+    padding-top: 3%;
 }
 
 
@@ -197,7 +198,7 @@ p {
 
 @media (max-width: 900px) {
     h1 {
-        font-size: 10rem;
+        font-size: 5rem;
     }
 }
 
